@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="submit.html" id="dk">
+    <p>Apply Here</p>
+    <label for="first name">First Name</label>
+    <input type="text" name="first name" id="first name" placeholder="Enter First Name" required class="af">&nbsp;&nbsp;
+    <label for="middle name">Middle Name</label>
+    <input type="text" name="middle name" id="middle name" placeholder="Enter Middle Name" required class="af">&nbsp;&nbsp;
+    <label for="last name">Last Name</label>
+    <input type="text" name="last name" id="last name" placeholder="Enter Last Name" required class="af"><br><p></p>
+    <label for="email id">Email Id</label>&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" name="Email Id" id="Email Id" placeholder="Enter Email id" required class="af"><br><p></p>
+    <label for="phone no">Phone No</label>&nbsp;&nbsp;
+    <input type="tel" name="phone no" id="phone no" placeholder="Enter Phone No" required class="af"><br><p></p>
+    <p>Gender</p>
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="male">
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="female">
+    <label for="other">Other</label>
+    <input type="radio" name="gender" id="other"><br><p></p>
+    <label for="10th%">10th%</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" name="10th%" id="10th%" placeholder="Enter Percentage" required class="af"><br><p></p>
+    <label for="12th%">12th%</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" name="12th%" id="12th%" placeholder="Enter Percentage" required class="af"><br><p></p>
+    <p>Select your Degree</p>
+    <select name="degree" id="degree" required>
+        <option value="" selected disabled >-----Select----</option>
+        <option value="b.e./b.tech">B.E./B.tech</option>
+        <option value="diploma">Diploma</option>
+        <option value="b.pharma">B.pharma</option>
+        <option value="law">Law</option>
+    </select><br><p></p>
+    <p>Select your Branch</p>
+    <select name="branch" id="branch" required>
+        <option value="" selected disabled >-----Select----</option>
+        <option value="cs">CSE</option>
+        <option value="it">IT</option>
+        <option value="ec">ECE</option>
+        <option value="ee">EEE</option>
+    </select><br><p></p>
+    <label for="degree%">Degree%</label>&nbsp;&nbsp;&nbsp;
+    <input type="text" name="degree%" id="degree%" placeholder="Enter Percentage" required class="af">
+    <p>Select your State</p>
+    <select name="state" id="state" required>
+        <option value="" selected disabled >-----Select----</option>
+        <option value="mp">Madhya Pradesh</option>
+        <option value="karnataka">Karnataka</option>
+        <option value="rajasthan">Rajasthan</option>
+        <option value="gujarat">Gujarat</option>
+    </select><br><p></p>
+    <p>Select your City</p>
+    <select name="city" id="city" required>
+        <option value="" selected disabled >-----Select----</option>
+        <option value="nad">Nagda</option>
+        <option value="bnglr">Bangalore</option>
+        <option value="jpr">Jaipur</option>
+        <option value="srt">Surat</option>
+    </select><br><p></p>
+    <p>Select Prefer location</p>
+    <select name="location" id="location" required>
+        <option value="" selected disabled >-----Select----</option>
+        <option value="bglr">Bangalore</option>
+        <option value="ind">Indore</option>
+        <option value="mum">Mumbai</option>
+        <option value="pun">Pune</option>
+    </select><br><p></p>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset"
+</form>
+</body>
+</html>
